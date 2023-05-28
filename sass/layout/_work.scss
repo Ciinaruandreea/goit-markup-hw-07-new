@@ -1,0 +1,22 @@
+.work {
+  padding-top: 94px 0px;
+
+  &__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+}
+.work__images {
+  display: flex;
+
+  &-list {
+    margin-right: 30px;
+    list-style-type: none;
+  }
+}

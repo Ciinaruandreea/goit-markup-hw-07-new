@@ -1,0 +1,55 @@
+.group {
+  padding: 94px;
+
+  &__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+.group__list {
+  flex: 0 1 50%;
+  margin-left: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.group__item {
+  flex: basis 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.group__icon {
+  display: flex;
+  gap: 30;
+  height: 120px;
+  width: 270px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.group__icon-svg {
+  height: 70px;
+  width: 70px;
+  margin-left: 30px;
+  align-content: center;
+  margin-left: 100px;
+  margin-top: 24px;
+}
