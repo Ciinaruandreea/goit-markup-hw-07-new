@@ -23,8 +23,9 @@
 .icon__circle:focus {
   cursor: pointer;
   background: #2196f3;
-}
-.icon__circle:hover use,
-.icon__circle:focus use {
-  fill: #ffffff;
+
+  & use,
+  & use {
+    fill: #ffffff;
+  }
 }

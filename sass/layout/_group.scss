@@ -28,13 +28,12 @@
   justify-content: center;
   padding-left: 215px;
   padding-right: 215px;
-}
 
-.group__item {
-  flex: basis 270px;
-
-  &:not(:last-child) {
+  &-item:not(:last-child) {
     margin-right: 30px;
+  }
+  &-item {
+    flex: basis 270px;
   }
 }
 .group__icon {
@@ -44,12 +43,13 @@
   width: 270px;
   background: #f5f4fa;
   border-radius: 4px;
-}
-.group__icon-svg {
-  height: 70px;
-  width: 70px;
-  margin-left: 30px;
-  align-content: center;
-  margin-left: 100px;
-  margin-top: 24px;
+
+  &-svg {
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 24px;
+  }
 }

@@ -1,20 +1,20 @@
 .contacts {
   display: flex;
   list-style-type: none;
-}
-.contacts__mail-tel {
-  display: flex;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  padding: 32px 31px;
-  color: #757575;
-  text-decoration: none;
 
-  &:hover,
-  &:focus {
+  &__mail-tel {
+    display: flex;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 32px 31px;
+    color: #757575;
+    text-decoration: none;
+  }
+  &__mail-tel:hover,
+  &__mail-tel:focus {
     color: #2196f3;
   }
 }

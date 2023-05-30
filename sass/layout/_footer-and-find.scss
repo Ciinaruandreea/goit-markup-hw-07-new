@@ -80,11 +80,12 @@
     margin-left: 10px;
     fill: #ffffff;
   }
-}
-.find__icon:hover,
-.find__icon:focus {
-  cursor: pointer;
-  background: #2196f3;
+
+  &__icon:hover,
+  &__icon:focus {
+    cursor: pointer;
+    background: #2196f3;
+  }
 }
 .footer__container {
   display: flex;
